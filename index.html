@@ -1,0 +1,42 @@
+<!--<!DOCTYPE html>-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" rel="stylesheet">
+  <title>Wikiemedia Viewer</title>
+</head>
+
+<body>
+  <div class="container-fluid center">
+    <h1 class="center">Wikimedia Viewer</h1>
+    <div>
+      <div>
+        <div class="container-fluid center">
+          <button type="button" class="btn btn-secondary"><span class="glyphicon glyphicon-random" aria-hidden="false"></span><a href=
+      "https://en.wikipedia.org/wiki/Special:Random" target="content"> Random </a></button>
+        </div>
+        <div>
+          <input id="search" placeholder="Search Wikipedia" type="string">
+          <input class="btn btn-primary" id="submit" type="submit">
+        </div>
+      </div>
+        <div id="link" class="list-group"> </div>
+           <div class="container fluid">
+           <!-- <object data="" width="400" height="300" type="text/html">
+    Content Display </object> -->
+        <base target="blank"> <iframe id="content" name="content" frameborder= "0" height= "600" width= "1150" marginheight="0" marginwidth="0" target="blank"> </iframe>
+        </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js">
+  </script>
+</body>
+
+</html>
