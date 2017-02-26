@@ -1,13 +1,17 @@
 body {
-  background-color: #000080;
+  /*background-color: #3b3b91;*/
 }
 .center {
   text-align: center;
   margin: 25px 25px 25px 25px;
 }
 
+.hidden{
+  display: none;
+}
+
 #randombutton {
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 
 a {
@@ -18,26 +22,26 @@ iframe[seamless] {
   display: run-in;
 }
 
-/*.container-iframe {
+.container-iframe {
   position: relative;
-  height: 0;
+  height: 100%;
   overflow: hidden;
 }
- 
-/* 16x9 Aspect Ratio 
+
+ 16x9 Aspect Ratio
 .container-iframe-16x9 {
   padding-bottom: 56.25%;
 }
- 
-/* 4x3 Aspect Ratio 
+
+/4x3 Aspect Ratio
 .container-iframe-4x3 {
   padding-bottom: 75%;
 }
- 
+
 .container-iframe iframe {
-  position: relative;
+  position: absolute;
   top:0;
   left: 0;
   width: 100%;
   height: 100%;
-} 
+}
